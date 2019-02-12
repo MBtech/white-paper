@@ -13,7 +13,7 @@ plugins: ['jekyll-paginate', 'jekyll-gist', 'jekyll-feed']
 paginate: 4
 
 logo:             logo.png
-disqus_shortname:
+disqus_shortname: mbilalce
 
 rtl: false
 owner:
