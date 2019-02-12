@@ -3,6 +3,8 @@ layout: post
 title: "Tutorial: Getting Started with Docker"
 categories:
   - tutorial
+tags:
+  - tutorial
 comments: true
 ---
 
