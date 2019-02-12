@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About Vinit Kumar
+title: About Bilal
 ---
 
 ![user-avatar]({{ site.owner.avatar }})

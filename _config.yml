@@ -1,12 +1,12 @@
-name: White Paper
+name: Adventures in CS
 description: >
-    A simple jekyll theme aimed at programmers who like clean interface to write posts
-    and show off some code.
+    Everyday dealings with CS things
 about: >
-    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+    I am Bilal, a country hopping Ph.D student dealing with distributed systems and cloud computing. I did my Bachelors in Computer Engineering at COMSATS University, Islamabad Pakistan. My Masters in Distributed Computing from UPC, Barcelona and KTH, Stockholm. Currently I am doing my Ph.D in Distributed Computing at UCLouvain, Belgium and IST, Portugal. 
 
+My research interests include but are not limited to: Black-box optimization, Big data frameworks, large-scale distributed systems, cloud computing and  machine learning
 master_repo: false
-url: "http://vinitkumar.me/white-paper"
+url: "http://adventuresincs.com"
 markdown: kramdown
 highlighter: rouge
 
@@ -19,14 +19,14 @@ disqus_shortname:
 
 rtl: false
 owner:
-  name:           whitepaper
-  avatar:         "https://avatars1.githubusercontent.com/u/537678?s=240&v=4"
-  email:          "vinit1414.08@bitmesra.ac.in"
+  name:           Bilal
+  avatar:         "https://avatars3.githubusercontent.com/u/6491549?s=400&u=4a8e20016ec5cf6cda129ccf711736af42a0dc9e&v=4"
+  email:          "muhammad.bilal@uclouvain.be"
   # Social networking links used in footer. Update and remove as you like.
-  twitter: vinitkme
-  github: https://github.com/vinitkumar
-  stackexchange: https://stackoverflow.com/users/859112/vinit-kumar?tab=profile
-  linkedin: https://www.linkedin.com/in/vinitatlinkedin
+  twitter: mb_ce
+  github: https://github.com/MBtech
+  stackexchange: https://stackoverflow.com/users/3167229/mb-ce?tab=profile
+  linkedin: https://www.linkedin.com/in/mbilalce/
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
 
