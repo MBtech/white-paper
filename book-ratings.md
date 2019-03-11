@@ -10,6 +10,7 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 
 ## Currently Listening:
 1. Accessory to War (by Neil deGrasse Tyson and Avis Lang): 7/10
+2. This Book will Blow your Mind (by New Scientist)
 
 ## Completed:
 1. 1984 (by George Orwell): 9/10
@@ -30,6 +31,8 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 16. The Dark Tower Series (by Stephen King): 8/10
 17. The Handmaid’s Tale (by Margaret Atwood): 9/10
 18. IT (by Stephen King): 8/10
+19. Dodger (by Terry Pratchett): 7/10
+20. Born a crime (by Trevor Noah): 7/10 
 
 <div class="pagination">
   {% if site.owner.linkedin %}
