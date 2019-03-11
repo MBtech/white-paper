@@ -6,9 +6,9 @@ categories:
 tags:
   - cheatsheet
 ---
-## Useful maven tidbits
+# Useful maven tidbits
 Updated on: 11-03-2019
-### Using a local version of the dependency
+## Using a local version of the dependency
 Sometimes you just need to use a local version of the dependency rather than fetching it from the
 maven central repository. You can add a local repository by providing the path to the local repository folder by adding the following to `pom.xml`a:
 ```xml
@@ -26,7 +26,7 @@ If you want to build a single module 'B' and the module required by 'B' then you
 mvn install -pl B -am
 ```
 
-### Working with SNAPSHOT artifacts of an Apache project
+## Working with SNAPSHOT artifacts of an Apache project
 SNAPSHOT artifacts from Apache have dedicated Maven repository. You would need to add the information about the following repository to get them through maven. Add the following to `pom.xml`:
 ```xml
 <repositories>
@@ -40,7 +40,7 @@ SNAPSHOT artifacts from Apache have dedicated Maven repository. You would need t
 </repositories>
 ```
 
-### Adding target bytecode version info
+## Adding target bytecode version info
 In specific situation IntelliJ IDEA causes the following error with Maven, `Error:java: javacTask: source release 8 requires target release 1.8`. You can resolve that error by adding the compiler plugin to pom.xml under the top-level project node:
 
 ```xml
@@ -58,9 +58,15 @@ In specific situation IntelliJ IDEA causes the following error with Maven, `Erro
 </build>
 ```
 
+## Disable checkstyle
+While not recommended, in some cases you might be look to do some quick modifications and test them for a maven project.
+You can disable the checkstyle plugin Using
+```mvn [target] -Dcheckstyle.skip```
+
 **References:**
 
 1.  http://jojovedder.blogspot.com/2009/04/running-maven-offline-using-local.html
 2. https://stackoverflow.com/questions/1114026/maven-modules-building-a-single-specific-module
 3. https://stackoverflow.com/questions/39702621/how-to-import-apache-flink-snapshot-artifacts
 4. https://stackoverflow.com/questions/29888592/errorjava-javactask-source-release-8-requires-target-release-1-8
+5. https://stackoverflow.com/questions/32308188/disable-maven-checkstyle

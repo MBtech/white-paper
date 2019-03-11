@@ -6,17 +6,17 @@ categories:
 tags:
   - cheatsheet
 ---
-## Go code snippets and libraries
+# Go code snippets and libraries
 
 Updated on: 03-03-2019
-### Deleting an element from a slice
+## Deleting an element from a slice
 Let's say that the element you want to delete is on index 'i' then
 
 ```go
 a = append(a[:i], a[i+1:]...)
 ```
 
-### Sorting in Golang
+## Sorting in Golang
 This is sorting an array of structure `planets` according to the axis value of the struct
 
 ```go
@@ -57,10 +57,10 @@ fmt.Printf("%#v\n", decodedMap)
 }
 ```
 
-### Short intro to Interfaces
+## Short intro to Interfaces
 Checkout [this page](https://gobyexample.com/interfaces) from go by example to get a basic idea about how to work with Interfaces in go.  
 
-### Number parsing examples
+## Number parsing examples
 Here's a snippet from go by example. Here's the Go playground [link](https://play.golang.org/p/NZh4LjhguvN)
 ```go
 package main
@@ -94,7 +94,7 @@ func main() {
 }
 ```
 
-### Generating a slice with sequence of numbers:
+## Generating a slice with sequence of numbers:
 Here's a function to generate sequence of numbers:
 
 ```go
@@ -108,7 +108,7 @@ func makeRange(min, max int) []int {
 ```
 [Link to Go playground](https://play.golang.org/p/rOCmHbT9Xvu)
 
-### Useful Libraries:
+## Useful Libraries:
 1. Numpy-like functionality: [gonum](https://www.gonum.org/)
 2. Working with and modifying HTML files? Take a look at [template package](https://golang.org/pkg/html/template/)
 
