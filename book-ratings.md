@@ -11,6 +11,7 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 ## Currently Listening:
 1. Accessory to War (by Neil deGrasse Tyson and Avis Lang): 7/10
 2. This Book will Blow your Mind (by New Scientist)
+3. The Long War (by Terry Pratchett and Stephen Baxter)
 
 ## Completed:
 1. 1984 (by George Orwell): 9/10
@@ -32,7 +33,8 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 17. The Handmaid’s Tale (by Margaret Atwood): 9/10
 18. IT (by Stephen King): 8/10
 19. Dodger (by Terry Pratchett): 7/10
-20. Born a crime (by Trevor Noah): 7/10 
+20. Born a crime (by Trevor Noah): 7/10
+21. The Long Earth (by Terry Pratchett and Stephen Baxter): 8/10
 
 <div class="pagination">
   {% if site.owner.linkedin %}
