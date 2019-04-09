@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On Spark"
+title: "On GraphX Internals"
 categories:
   - guide
 tags:
@@ -16,7 +16,7 @@ Implementing `getPreferredLocations()` function in the constructor of both EdgeR
 
 ### On Partitioning:
 
-I found out that if you graph is not partitioned into the number of partitions that you want when you first read the graph from an edge list file the number of tasks per stage can be rather odd. Take a look at this [question](https://stackoverflow.com/questions/55557607/number-of-tasks-per-stage-in-spark). I am trying to figure out the reason for this. 
+I found out that if you graph is not partitioned into the number of partitions that you want when you first read the graph from an edge list file the number of tasks per stage can be rather odd. Take a look at this [question](https://stackoverflow.com/questions/55557607/number-of-tasks-per-stage-in-spark). I am trying to figure out the reason for this.
 The solution is to simply provide the desired number of partitions to the `GraphLoader.edgeListFile()` function.
 
 
