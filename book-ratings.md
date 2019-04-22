@@ -6,12 +6,16 @@ title: Book Ratings
 
 ## My Book Ratings
 
-Here's a bunch of books that I have read (listened to) and my ratings for them. Maybe it could help you select a new book to read. Most of them have been audiobooks unless I explicitly mention it and they are not CS books generally.
+Here's a bunch of books that I have read (listened to) and my ratings for them. Maybe it could help you select a new book to read. Most of them have been audiobooks unless I explicitly mention it and they are not CS books generally. A rating of 5 means an average book, it doesn't mean that the book was bad. Just that it was nothing special or intriguing.
+
+## Up Next:
+1. Chaos Monkeys (by Antonio Garcia Martinez)
+
 
 ## Currently Listening:
 1. Accessory to War (by Neil deGrasse Tyson and Avis Lang): 7/10
 2. This Book will Blow your Mind (by New Scientist)
-3. The Long War (by Terry Pratchett and Stephen Baxter)
+3. The Long War (by Terry Pratchett and Stephen Baxter): 6.5/10
 
 ## Completed:
 1. 1984 (by George Orwell): 9/10
@@ -35,6 +39,8 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 19. Dodger (by Terry Pratchett): 7/10
 20. Born a crime (by Trevor Noah): 7/10
 21. The Long Earth (by Terry Pratchett and Stephen Baxter): 8/10
+22. Harry Potter Series (by J.K. Rowling): 8/10
+23. Lord of the Rings Series (by J.R.R Tolkien): 8/10
 
 <div class="pagination">
   {% if site.owner.linkedin %}
