@@ -15,7 +15,8 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 ## Currently Listening:
 1. Accessory to War (by Neil deGrasse Tyson and Avis Lang): 7/10
 2. This Book will Blow your Mind (by New Scientist)
-3. The Long War (by Terry Pratchett and Stephen Baxter): 6.5/10
+3. The Long Mars (by Terry Pratchett and Stephen Baxter): 6.5/10
+4. Jurassic Park (by Michael Crichton): 7/10
 
 ## Completed:
 1. 1984 (by George Orwell): 9/10
@@ -39,10 +40,11 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 19. Dodger (by Terry Pratchett): 7/10
 20. Born a crime (by Trevor Noah): 7/10
 21. The Long Earth (by Terry Pratchett and Stephen Baxter): 8/10
-22. Harry Potter Series (by J.K. Rowling): 7.5/10
-23. Lord of the Rings Series (by J.R.R Tolkien): 8/10
-24. Poorly Made in China: An Insider's Account of the Tactics Behind China's Production Game (by Paul Midler): 7/10
-25. Surely You're Joking, Mr. Feynman (by Richard Feynman): 7/10
+22. The Long War (by Terry Pratchett and Stephen Baxter): 6.5/10
+23. Harry Potter Series (by J.K. Rowling): 7.5/10
+24. Lord of the Rings Series (by J.R.R Tolkien): 8/10
+25. Poorly Made in China: An Insider's Account of the Tactics Behind China's Production Game (by Paul Midler): 7/10
+26. Surely You're Joking, Mr. Feynman (by Richard Feynman): 7/10
 
 <div class="pagination">
   {% if site.owner.linkedin %}
