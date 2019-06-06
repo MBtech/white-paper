@@ -26,6 +26,12 @@ Alter the replication strategy or replication factor of a keyspace
 
 You would need to run `nodetool repair -full` for each node for an existing keyspace
 
+List the tables in a keyspace:
+
+`use <keyspace>;`
+
+`desribe tables;`
+
 
 # Cassandra CLI Tools
 Statistics about a table on a node

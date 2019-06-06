@@ -11,12 +11,10 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 ## Up Next:
 1. Chaos Monkeys (by Antonio Garcia Martinez)
 
-
 ## Currently Listening:
 1. Accessory to War (by Neil deGrasse Tyson and Avis Lang): 7/10
-2. This Book will Blow your Mind (by New Scientist)
-3. The Long Mars (by Terry Pratchett and Stephen Baxter): 6.5/10
-4. Jurassic Park (by Michael Crichton): 7/10
+2. The Long Mars (by Terry Pratchett and Stephen Baxter): 6.5/10
+3. More bedtime stories for Cynics
 
 ## Completed:
 1. 1984 (by George Orwell): 9/10
@@ -44,7 +42,10 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 23. Harry Potter Series (by J.K. Rowling): 7.5/10
 24. Lord of the Rings Series (by J.R.R Tolkien): 8/10
 25. Poorly Made in China: An Insider's Account of the Tactics Behind China's Production Game (by Paul Midler): 7/10
-26. Surely You're Joking, Mr. Feynman (by Richard Feynman): 7/10
+26. Surely You're Joking, Mr. Feynman (by Richard Feynman): 8/10
+27. Jurassic Park (by Michael Crichton): 6.5/10
+28. The Dispatcher (by John Scalzi): 7/10
+29. The Demon Next Door (by Bryan Burrough): 6/10
 
 <div class="pagination">
   {% if site.owner.linkedin %}
