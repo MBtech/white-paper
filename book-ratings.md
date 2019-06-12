@@ -13,8 +13,8 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 
 ## Currently Listening:
 1. Accessory to War (by Neil deGrasse Tyson and Avis Lang): 7/10
-2. The Long Mars (by Terry Pratchett and Stephen Baxter): 6.5/10
-3. More bedtime stories for Cynics
+2. The Long Utopia (by Terry Pratchett and Stephen Baxter)
+3. Do Dice Play God?: The Mathematics of Uncertainty (by Ian Stewart)
 
 ## Completed:
 1. 1984 (by George Orwell): 9/10
@@ -46,6 +46,8 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 27. Jurassic Park (by Michael Crichton): 6.5/10
 28. The Dispatcher (by John Scalzi): 7/10
 29. The Demon Next Door (by Bryan Burrough): 6/10
+30. The Long Mars (by Terry Pratchett and Stephen Baxter): 6.5/10
+31. More bedtime stories for Cynics: 6/10
 
 <div class="pagination">
   {% if site.owner.linkedin %}
