@@ -11,12 +11,22 @@ As I learn scala, I am going to update these notes for my own References
 ### Lists
 Lists are immutable
 
-#### Empty List
+Empty List:
+```scala
 val list1 = List.empty[Int]
+```
 
-#### Append
+Append:
+```scala
 val list1 = List(10, 20, 30)
 val list2 = 40 :: list1
+```
+
+Convert List[Any] to List[Int]:
+```scala
+# l is the list of Any datatype
+l.map(_.toString.toInt)
+```
 
 ### Arrays
 ```scala
@@ -73,5 +83,9 @@ def meth[A : TypeTag](xs: List[A]) = typeOf[A] match {
 }
 ```
 Here `=:=` is to check for type equality while `<:<` checks for subtype relation. More information can be found [here](https://stackoverflow.com/questions/12218641/scala-what-is-a-typetag-and-how-do-i-use-it)
+
+### Gems
+Ternary operator syntax:
+`val a = if (i == 1) x else y`
 
 **References:**
