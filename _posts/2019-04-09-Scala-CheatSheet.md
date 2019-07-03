@@ -88,4 +88,6 @@ Here `=:=` is to check for type equality while `<:<` checks for subtype relation
 Ternary operator syntax:
 `val a = if (i == 1) x else y`
 
+### Recommendations
+If an object doesn't need to be serialized then use `@transient lazy val`. `lazy val` are fields that are evaluated once they are access for the first time and `@transient` denotes that a field shouldn't be serialized. 
 **References:**

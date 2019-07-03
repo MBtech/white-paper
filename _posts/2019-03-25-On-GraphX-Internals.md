@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On GraphX Internals"
+title: "On GraphX"
 categories:
   - guide
 tags:
@@ -13,6 +13,13 @@ Here's my notes on random things about GraphX internals. Since I am not an exper
 The property graph implementation is composed of 2 RDD. A VertexRDD and a replicatedVertexView RDD. replicatedVertexView contains an EdgeRDD as well.
 
 Implementing `getPreferredLocations()` function in the constructor of both EdgeRDD and VertexRDD doesn't allow you make spark take into account your suggestions. I am investigating the reason for that.
+
+### Saving a Graph:
+```Scala
+vertices.saveAsObjectFile("location/of/vertices")
+edges.saveAsObjectFile("location/of/edges")
+```
+
 
 ### On Partitioning:
 
