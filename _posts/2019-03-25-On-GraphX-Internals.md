@@ -14,12 +14,19 @@ The property graph implementation is composed of 2 RDD. A VertexRDD and a replic
 
 Implementing `getPreferredLocations()` function in the constructor of both EdgeRDD and VertexRDD doesn't allow you make spark take into account your suggestions. I am investigating the reason for that.
 
-### Saving a Graph:
+### Saving and loading Graphs:
+Write the vertices and edges separately
 ```Scala
 vertices.saveAsObjectFile("location/of/vertices")
 edges.saveAsObjectFile("location/of/edges")
 ```
 
+Read back the vertices and edges to create a graph
+```Scala
+val vertices = sc.objectFile[T]("/location/of/vertices")
+val edges = sc.objectFile[T]("/location/of/edges")
+val graph = Graph(vertices, edges)
+```
 
 ### On Partitioning:
 
