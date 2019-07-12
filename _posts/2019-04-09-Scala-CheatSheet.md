@@ -89,5 +89,23 @@ Ternary operator syntax:
 `val a = if (i == 1) x else y`
 
 ### Recommendations
-If an object doesn't need to be serialized then use `@transient lazy val`. `lazy val` are fields that are evaluated once they are access for the first time and `@transient` denotes that a field shouldn't be serialized. 
+If an object doesn't need to be serialized then use `@transient lazy val`. `lazy val` are fields that are evaluated once they are access for the first time and `@transient` denotes that a field shouldn't be serialized.
+
+### SBT
+To define a location you have to add something like this to the resolvers `resolvers += "repository name" at "location"` such as:
+```Scala
+resolvers += "Java.net Maven2 Repository" at "http://download.java.net/maven/2/"
+```
+
+**Running a program:**
+
+If there is no need for command line arguments:
+`sbt run`
+
+If specific class with command line parameters has to be executed then:
+
+`sbt "runMain package.path.to.main.class param1 param2"`
+or
+`sbt "run-main package.path.to.main.class param1 param2"`
+
 **References:**
