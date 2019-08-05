@@ -80,6 +80,10 @@ UsePAM no
 ```
 Then restart ssh using `sudo systemctl restart ssh`
 
+**Changing java version:**
+
+`sudo update-alternatives --config java`
+
 ## Useful CLI tools
 ### TC tool for traffic control:
 TC can only limit egress bandwidth (and do a bunch of other things like delays, packet loss and packet corruption). We can use the following command to limit egress bandwidth
