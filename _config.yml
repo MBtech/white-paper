@@ -2,9 +2,9 @@ name: Adventures in CS
 description: >
     Everyday dealings with CS things
 about: >
-    I am Bilal, a country hopping Ph.D student dealing with distributed systems and cloud computing. I did my Bachelors in Computer Engineering at COMSATS University, Islamabad Pakistan. My Masters in Distributed Computing from UPC, Barcelona and KTH, Stockholm. Currently I am doing my Ph.D in Distributed Computing at UCLouvain, Belgium and IST, Portugal. My research interests include but are not limited to Black-box optimization, Big data frameworks, large-scale distributed systems, cloud computing and  machine learning. 
+    I am Bilal, a country hopping Ph.D student dealing with distributed systems and cloud computing. I did my Bachelors in Computer Engineering at COMSATS University, Islamabad Pakistan. My Masters in Distributed Computing from UPC, Barcelona and KTH, Stockholm. Currently I am doing my Ph.D in Distributed Computing at UCLouvain, Belgium and IST, Portugal. My research interests include but are not limited to Black-box optimization, Big data frameworks, large-scale distributed systems, cloud computing and  machine learning.
 master_repo: false
-url: "http://adventuresincs.com"
+url: "https://adventuresincs.com"
 markdown: kramdown
 highlighter: rouge
 
