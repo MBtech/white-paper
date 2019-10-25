@@ -16,6 +16,7 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 1. Accessory to War (by Neil deGrasse Tyson and Avis Lang): 7/10
 2. Logically Fallacious (by Bo Bennett)
 
+
 ## Completed:
 1. 1984 (by George Orwell): 9/10
 2. The Man in the High Castle (by Philip K. Dick): 6/10

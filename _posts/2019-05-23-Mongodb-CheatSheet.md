@@ -34,6 +34,15 @@ or
 or
 `db['<collection name>'].find().pretty()`
 
+Return only specific fields
+`db['<collection name>'].find( { }, { <field name 1>: 1, <field name 2>: 1 } )`
+
+Return matching entries
+`db['<collection name>'].find({ "id": 5})`
+
+Query with ranges
+`db['<collection name>'].find( { birth: { $gt: new Date('1940-01-01'), $lt: new Date('1960-01-01') } } )`
+
 Copy a collection:
 `db['<collection name>'].copyTop('<target collection name>')`
 
@@ -42,6 +51,28 @@ Delete a collection:
 
 Insert a document:
 `db['<collection name>'].insert(DOCUMENT)`
+
+Update a document:
+```
+db.inventory.updateOne(
+   { item: <matching criteria for item> },
+   {
+     $set: { "size": "cm" }
+   }
+)
+```
+
+Update multiple documents:
+```
+db.inventory.updateMany(
+   { "qty": { $lt: 50 } },
+   {
+     $set: { "size": "in" }
+     $currentDate: { lastModified: true }
+   }
+)
+```
+Here we also create a new field `currentDate` for the documents on which our criteria matches
 
 Delete a document, given a criteria:
 `db['<collection name>'].remove(CRITERIA)`
@@ -58,5 +89,6 @@ Import a json file to mongodb collection:
 
 
 **References:**
-
-https://stackoverflow.com/questions/13916004/mongo-copy-from-one-collection-to-another-on-the-same-db
+- https://stackoverflow.com/questions/13916004/mongo-copy-from-one-collection-to-another-on-the-same-db
+- https://docs.mongodb.com/manual/reference/method/db.collection.find/
+- https://docs.mongodb.com/manual/tutorial/update-documents/
