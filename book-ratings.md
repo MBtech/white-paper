@@ -9,13 +9,14 @@ title: Book Ratings
 Here's a bunch of books that I have read (listened to) and my ratings for them. Maybe it could help you select a new book to read. Most of them have been audiobooks unless I explicitly mention it and they are not CS books generally. A rating of 5 means an average book, it doesn't mean that the book was bad. Just that it was nothing special or intriguing.
 
 ## Up Next:
-1. Chaos Monkeys (by Antonio Garcia Martinez)
-2. Do Dice Play God?: The Mathematics of Uncertainty (by Ian Stewart)
+1. Do Dice Play God?: The Mathematics of Uncertainty (by Ian Stewart)
+2. The Phoenix Project (by Gene Kim, Kevin Behr and George Spafford)
 
 ## Currently Listening:
 1. Accessory to War (by Neil deGrasse Tyson and Avis Lang): 7/10
 2. Logically Fallacious (by Bo Bennett)
-
+3. Chaos Monkeys (by Antonio Garcia Martinez)
+4. The Testaments (by Margaret Atwood)
 
 ## Completed:
 1. 1984 (by George Orwell): 9/10
@@ -55,6 +56,12 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 35. Catching Fire (Book 2 of The Hunger Games by Suzanne Collins): 6.5/10
 36. Mockingjay (Book 3 of The Hunger Games by Suzanne Collins): 6/10
 37. How They Rule the World: The 22 Secret Strategies of Global Power (by Pedro Baños): 7/10
+38. Treasure Island (by Robert Louis Stevenson): 6.5/10
+39. The Adventures of Tom Stranger, Interdimensional Insurance Agent (by Larry Correia): 7/10
+40. Rivals! Frenemies Who Changed the World (by Scott McCormick): 6/10
+41. Superforecasting: The Art and Science of Prediction (by Philip Tetlock and Dan Gardner): 7.5/10
+42. The Sisters (by Dervla McTiernan): 6/10
+43. Camp Red Moon (by R.L. Stine): 6.5/10
 
 <div class="pagination">
   {% if site.owner.linkedin %}
