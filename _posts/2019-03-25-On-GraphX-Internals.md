@@ -31,6 +31,7 @@ val graph = Graph(vertices, edges)
 ### On Partitioning:
 
 I found out that if you graph is not partitioned into the number of partitions that you want when you first read the graph from an edge list file the number of tasks per stage can be rather odd. Take a look at this [question](https://stackoverflow.com/questions/55557607/number-of-tasks-per-stage-in-spark). I am trying to figure out the reason for this.
+The problem has something to do with the fact that using the partitionBy() method with the number of partitions provided doesn't partition both the Vertex and Edge RDD.
 The solution is to simply provide the desired number of partitions to the `GraphLoader.edgeListFile()` function.
 
 

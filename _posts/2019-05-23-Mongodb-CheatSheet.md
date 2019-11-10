@@ -44,7 +44,7 @@ Query with ranges
 `db['<collection name>'].find( { birth: { $gt: new Date('1940-01-01'), $lt: new Date('1960-01-01') } } )`
 
 Copy a collection:
-`db['<collection name>'].copyTop('<target collection name>')`
+`db['<collection name>'].copyTo('<target collection name>')`
 
 Delete a collection:
 `db['<collection name>'].drop()`
@@ -76,6 +76,9 @@ Here we also create a new field `currentDate` for the documents on which our cri
 
 Delete a document, given a criteria:
 `db['<collection name>'].remove(CRITERIA)`
+
+Delete multiple documents. For example with id greater than 4:
+`db['<collection name>'].remove({"id":{ $gt: 4}})`
 
 For example if you are matching on the title key in the document:
 `db['<collection name>'].remove({'title' : 'MongoDB'}}`

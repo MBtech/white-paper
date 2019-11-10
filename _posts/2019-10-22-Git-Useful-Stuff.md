@@ -9,11 +9,13 @@ tags:
 **Ignoring changes to a committed file**
 
 Committing a file and then ignore further changes to it
-```shell
+```
+shell
 git update-index --assume-unchanged <filename>
 ```
 To start tracking the files again
-```shell
+```
+shell
 git update-index --no-assume-unchanged <filename>
 ```
 

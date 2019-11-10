@@ -114,6 +114,12 @@ end=`date +%s`
 runtime=$((end-start))
 ```
 
+**Source bash variables from a script and have global effect**
+If you run it using `bash myscript.sh` or `./script.sh` then a subshell is created where the environment variables are imported and as soon as the script finishes, the subshell and the side-effects vanish too. For more information check this [stackoverflow question](https://stackoverflow.com/questions/3274397/reload-profile-in-bash-shell-script-in-unix)
+You have to use this instead:
+
+`.myscript.sh`
+
 **Suppress the output of a command**
 You can use the shell redirection to suppress output and redirect it to /dev/null
 ```

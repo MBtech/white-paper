@@ -24,6 +24,9 @@ Download an image
 Run an interactive container using ubuntu image with bash  
 `docker run -i -t ubuntu /bin/bash`
 
+Attach to a background container
+`docker exec -i -t <container ID> /bin/bash`
+
 See docker images
 `docker images`
 
