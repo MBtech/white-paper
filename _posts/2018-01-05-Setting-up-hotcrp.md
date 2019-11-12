@@ -4,11 +4,11 @@ title: "Setting up a Hotcrp server"
 categories:
   - tutorial
 tags:
-  - tutorial
+  - tutorial, hotcrp, ubuntu, installation guide
 ---
-## Setting up a hotcrp server
+## Installing Hotcrp on your server
 
-For a research paper reading course, I was asked to setup a hotcrp server so that students could submit their reviews of the paper through the method that is used by actual reviewers. So here is how I setup it up on a Bodhi linux based on Ubuntu 16.04. However, the procedure should be the same on mainstream Ubuntu 16.04 as well.
+For a research paper reading course, I was asked to setup a hotcrp installation so that students could submit their reviews of the paper through the method that is used by actual reviewers. So here is how I install hotcrp on a Bodhi linux based on Ubuntu 16.04. However, the procedure should be the same on mainstream Ubuntu 16.04 as well.
 
 1. Install required packages:
 ``` shell
