@@ -33,5 +33,8 @@ and pop specific stashes using `git stash pop <stash ID>` e.g. `git stash pop st
 
 A detail discussion about git stash is in this [blog post](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
 
+**Git Submodules**
+https://git-scm.com/book/en/v2/Git-Tools-Submodules
+
 **References:**
 - https://stackoverflow.com/questions/3319479/can-i-git-commit-a-file-and-ignore-its-content-changes
