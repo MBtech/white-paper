@@ -27,7 +27,7 @@ git log
 ```bash
 git reset --hard HEAD~
 ```
-This will reset the state of the repository. If the excess commits are available to others as well you might want to use `git revert` instead.
+This will reset the state of the repository. If the excess commits are available to others as well you might want to use `git revert` instead as mentioned in this [answer](https://stackoverflow.com/questions/5097456/throw-away-local-commits-in-git). 
 
 **Delete a remote commit**
 
