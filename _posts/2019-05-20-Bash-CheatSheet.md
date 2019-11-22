@@ -6,37 +6,42 @@ categories:
 tags:
   - guide
 ---
-Here a set of Bash one-liners that I have used in past
+Updated: 21/11/2019
+Here a set of Bash one-liners that I have used in past or I regularly use:
 
 **Starting ssh-agent in the background:**
 
-`$ eval "$(ssh-agent -s)"`
+```bash
+eval "$(ssh-agent -s)"
+```
 
 **Adding ssh key to ssh-agent:**
 
-`$ ssh-add -K <ssh private key>`
+```bash
+ssh-add -K <ssh private key>
+```
 
 **Run shell script when a file or directory changes:**
 
 Install entr using `apt install entr`
 
 **For changes to file:**
-```Bash
+```bash
 ls -d *.c | entr sh -c 'make && make test'
 ```
 
 **For changes to directories:**
 
-```Bash
+```bash
 while true; do find path/ | entr -d echo Changed; sleep 10; done
 ```
 or
-```Bash
+```bash
 while true; do ls path/* | entr -pd echo Changed; sleep 10; done
 ```
 
 **Starting a remote ssh command and shifting it to background and getting the PID of the process:**
-```Bash
+```bash
 ssh -n me@example.com "nohup myscript.sh >/dev/null 2>&1 &"
 SERV_PID=$(ssh me@example.com 'echo $!')
 ```
@@ -82,31 +87,35 @@ Then restart ssh using `sudo systemctl restart ssh`
 
 **Changing java version:**
 
-`sudo update-alternatives --config java`
+```bash
+sudo update-alternatives --config java
+```
 
 **Reporting all devices connected in a network**
+
 You need to provide the subnet mask IP as follows
 
 `nmap -sP 192.168.100.0/24`
 
 **Send POST Request with data from a file via curl**
-```
+```bash
 curl -i -X POST host:port/post-file -H "Content-Type: text/xml" --data-binary "@path/to/file"
 ```
 `@` tells curl to read from the file
 
 **Send POST Request form with file via curl**
-```
+```bash
 curl -X POST -i -F parametername=@filename host:port/post-file
 ```
 
 **Measuring time**
+
 One way to measure time is to simply use the `time` utility
-```
+```bash
 time yourscript.sh
 ```
 Or you can do this if `time` isn't an option
-```
+```bash
 start=`date +%s`
 stuff
 end=`date +%s`
@@ -115,16 +124,30 @@ runtime=$((end-start))
 ```
 
 **Source bash variables from a script and have global effect**
+
 If you run it using `bash myscript.sh` or `./script.sh` then a subshell is created where the environment variables are imported and as soon as the script finishes, the subshell and the side-effects vanish too. For more information check this [stackoverflow question](https://stackoverflow.com/questions/3274397/reload-profile-in-bash-shell-script-in-unix)
 You have to use this instead:
 
 `.myscript.sh`
 
 **Suppress the output of a command**
+
 You can use the shell redirection to suppress output and redirect it to /dev/null
-```
+```bash
 your_command >/dev/null 2>&1
 ```
+
+**Bash script within a script**
+
+The technical terminology for this is [HereDoc](https://linuxhint.com/bash-heredoc-tutorial/). It is a block of code or text which can be redirected to command script and interactive program.
+
+If you want to avoid variable substitution you have to use single quotes or backslash before the delimiter. Otherwise you don't have to. I found that information in these answers ([1](https://stackoverflow.com/questions/22697688/how-to-cat-eof-a-file-containing-code), [2](https://stackoverflow.com/questions/39563955/how-create-a-bash-script-with-another-bash-script))
+```bash
+cat > script.sh  <<'EOF'
+#Your script code
+EOF
+```
+
 ## awk one-liners
 Specifying the output field separator
 ```
@@ -134,7 +157,7 @@ cat file | awk -v OFS='\t' '{print $5, $1}'
 ## Useful CLI tools
 ### TC tool for traffic control:
 TC can only limit egress bandwidth (and do a bunch of other things like delays, packet loss and packet corruption). We can use the following command to limit egress bandwidth
-```Bash
+```bash
 tc qdisc add dev <interface> root tbf rate 1mbit latency 1us
 ```
 

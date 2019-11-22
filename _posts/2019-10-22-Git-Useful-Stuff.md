@@ -6,17 +6,34 @@ categories:
 tags:
   - guide
 ---
+Here are a set of commands that I find useful when using Git
+
 **Ignoring changes to a committed file**
 
 Committing a file and then ignore further changes to it
-```
-shell
+```bash
 git update-index --assume-unchanged <filename>
 ```
 To start tracking the files again
-```
-shell
+```bash
 git update-index --no-assume-unchanged <filename>
+```
+
+**Get log of git commits**
+```bash
+git log
+```
+**Delete a local commit**
+```bash
+git reset --hard HEAD~
+```
+This will reset the state of the repository. If the excess commits are available to others as well you might want to use `git revert` instead.
+
+**Delete a remote commit**
+
+First remove the commit from your local repo (see above)
+```bash
+git push origin +master
 ```
 
 **Stashing with Git**
