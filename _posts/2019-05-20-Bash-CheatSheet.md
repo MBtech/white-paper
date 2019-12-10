@@ -6,7 +6,7 @@ categories:
 tags:
   - guide
 ---
-Updated: 21/11/2019
+Updated: 09/12/2019
 Here a set of Bash one-liners that I have used in past or I regularly use:
 
 **Starting ssh-agent in the background:**
@@ -21,6 +21,10 @@ eval "$(ssh-agent -s)"
 ssh-add -K <ssh private key>
 ```
 
+**Process using a particular port**
+```bash
+sudo netstat -pna | grep
+```
 **Run shell script when a file or directory changes:**
 
 Install entr using `apt install entr`
@@ -146,6 +150,23 @@ If you want to avoid variable substitution you have to use single quotes or back
 cat > script.sh  <<'EOF'
 #Your script code
 EOF
+```
+
+**Self deletion**
+Adding a command to make the script delete itself ([SO Answer](https://stackoverflow.com/questions/8981164/self-deleting-shell-script))
+
+```bash
+rm -- "$0"
+```
+
+**Forcing prompt to always ask for sudo password**
+```bash
+sudo -k ...
+```
+
+**Summarized size of hidden directories**
+```bash
+du -hs .[^.]*
 ```
 
 ## awk one-liners

@@ -15,57 +15,61 @@ Docker is a tool designed to make it easier to create, deploy, and run applicati
 
 
 ### Useful commands
-Installing docker  
+Installing docker:  
 `$ curl -sSL https://get.docker.com/ | sh`  
 
-Download an image
+Start Docker:
+`systemctl start docker`
+
+
+Download an image:
 `$ docker pull ubuntu`
 
-Run an interactive container using ubuntu image with bash  
+Run an interactive container using ubuntu image with bash:  
 `docker run -i -t ubuntu /bin/bash`
 
-Attach to a background container
+Attach to a background container:
 `docker exec -i -t <container ID> /bin/bash`
 
-See docker images
+See docker images:
 `docker images`
 
-All docker containers (running or stopped)
+All docker containers (running or stopped):
 `docker ps -a`
 
 **Long Running containers**  
-Start a very useful long-running process
+Start a very useful long-running process:
 `$ JOB=$(docker run -d ubuntu /bin/sh -c "while true; do echo Hello world; sleep 1; done")`
 
-Collect the output of the job so far
+Collect the output of the job so far:
 `$ docker logs $JOB`
 
-Kill the job
+Kill the job:
 `$ docker kill $JOB`
 
-Stop the container
+Stop the container:
 `$ docker stop $JOB`
 
-Start the container
+Start the container:
 `$ docker start $JOB`
 
-Restart the container
+Restart the container:
 `$ docker restart $JOB`
 
-Container must be stopped to remove it
+Container must be stopped to remove it:
 `$ docker rm $JOB`
 
 **Bind a service on TCP port**  
-Bind port 4444 of this container, and tell netcat to listen on it
+Bind port 4444 of this container, and tell netcat to listen on it:
 `$ JOB=$(docker run -d -p 4444 ubuntu:12.10 /bin/nc -l 4444)`
 
-Which public port is NATed to my container?
+Which public port is NATed to my container?:
 `$ PORT=$(docker port $JOB 4444 | awk -F: '{ print $2 }')`
 
-Connect to the public port
+Connect to the public port:
 `$ echo hello world | nc 127.0.0.1 $PORT`
 
-Verify that the network connection worked
+Verify that the network connection worked:
 `$ echo "Daemon received: $(docker logs $JOB)"`
 
 **Dettaching from a container and reattaching**  

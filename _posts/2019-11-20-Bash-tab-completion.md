@@ -15,7 +15,7 @@ Recently, I started contributing to a small project called [googliser](https://g
 `COMP_WORDS` is an array of all words typed after the name of the program.
 `COMP_CWORD` is an index in `COMP_WORDS` that points to the word at the current cursor when tab was pressed.  
 
-Lastly, `_filedir` is a function available in bash-completion lib. to complete filenames/paths and it can handle spaces in the filenames as well. You can check if you have that function available or not `declare -f _filedir` (I found out about it through this [answer](https://stackoverflow.com/questions/23998364/bash-completion-script-to-complete-file-path-after-certain-arguments-options)). You probably would need to install that lib for MacOS. I added that function so that for command line arguments that require filepaths, our bash completion script has the ability to suggest them. 
+Lastly, `_filedir` is a function available in bash-completion lib. to complete filenames/paths and it can handle spaces in the filenames as well. You can check if you have that function available or not `declare -f _filedir` (I found out about it through this [answer](https://stackoverflow.com/questions/23998364/bash-completion-script-to-complete-file-path-after-certain-arguments-options)). You probably would need to install that lib for MacOS. I added that function so that for command line arguments that require filepaths, our bash completion script has the ability to suggest them.
 
 ```bash
 #!/usr/bin/env bash
@@ -72,6 +72,16 @@ Copy your bash completion spec to `/etc/bash_completion.d/` and it should be aut
 For your current terminal you can simply source
 
 `source <path to your completion script>`
+
+### Bash completion specs with zsh
+Since in macOS Catalina, zsh became the default shell I decided to add zsh support for googliser.
+You can add the following lines to `~/.zshrc` to enable this (thanks to this [answer](https://stackoverflow.com/questions/3249432/can-a-bash-tab-completion-script-be-used-in-zsh))
+
+```bash
+autoload -U +X compinit && compinit
+autoload -U +X bashcompinit && bashcompinit
+source /path/to/your/bash_completion_script
+```
 
 **References:**
 - [Programmable Completion Builtins](https://www.gnu.org/software/bash/manual/html_node/Programmable-Completion-Builtins.html)
