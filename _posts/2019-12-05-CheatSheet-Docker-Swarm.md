@@ -21,7 +21,7 @@ Which nodes are running a service: `docker service ps <service_ID>`
 
 Removing a node from node list after the node has left: `docker node rm <node_id>`
 
-Scaling a service: `docker service ps <service_ID>=<number_of_tasks>`
+Scaling a service: `docker service scale <service_ID>=<number_of_tasks>`
 
 Delete a service: `docker service rm <service_ID>`
 
