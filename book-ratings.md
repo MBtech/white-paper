@@ -10,13 +10,13 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 
 ## Currently Listening:
 1. Accessory to War (by Neil deGrasse Tyson and Avis Lang)
-2. Chaos Monkeys (by Antonio Garcia Martinez)
-3. Everything is Fucked: A Book About Hope (by Mark Manson)
+2. The Phoenix Project (by Gene Kim, Kevin Behr and George Spafford)
+
 
 ## Up Next:
 1. Do Dice Play God?: The Mathematics of Uncertainty (by Ian Stewart)
-2. The Phoenix Project (by Gene Kim, Kevin Behr and George Spafford)
-3. Logically Fallacious (by Bo Bennett)
+2. Logically Fallacious (by Bo Bennett)
+3. Good Strategy/Bad Strategy (by Richard P. Rumelt)
 
 ## Completed:
 1. 1984 (by George Orwell): 9/10
@@ -63,6 +63,8 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 42. Superforecasting: The Art and Science of Prediction (by Philip Tetlock and Dan Gardner): 7.5/10
 43. The Sisters (by Dervla McTiernan): 6/10
 44. Camp Red Moon (by R.L. Stine): 6.5/10
+45. Chaos Monkeys (by Antonio Garcia Martinez): 7/10
+46. Everything is Fucked: A Book About Hope (by Mark Manson): 7.5/10
 
 <div class="pagination">
   {% if site.owner.linkedin %}
