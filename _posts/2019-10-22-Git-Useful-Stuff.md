@@ -27,7 +27,7 @@ git log
 ```bash
 git reset --hard HEAD~
 ```
-This will reset the state of the repository. If the excess commits are available to others as well you might want to use `git revert` instead as mentioned in this [answer](https://stackoverflow.com/questions/5097456/throw-away-local-commits-in-git). 
+This will reset the state of the repository. If the excess commits are available to others as well you might want to use `git revert` instead as mentioned in this [answer](https://stackoverflow.com/questions/5097456/throw-away-local-commits-in-git).
 
 **Delete a remote commit**
 
@@ -49,6 +49,16 @@ You can see the list of stashes using `git stash list`
 and pop specific stashes using `git stash pop <stash ID>` e.g. `git stash pop stash@{2}`  
 
 A detail discussion about git stash is in this [blog post](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
+
+**Keeping a fork up to date**
+```bash
+git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
+git fetch upstream
+git pull upstream master
+```
+
+**Git Branches and Merging**
+https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
 
 **Git Submodules**
 https://git-scm.com/book/en/v2/Git-Tools-Submodules

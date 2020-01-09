@@ -80,7 +80,7 @@ Multiprocessing with callbacks
 from multiprocessing import Pool
 def callback_fun():
     return "Finished"
-    
+
 def f(x):
     return x*x
 
@@ -89,6 +89,15 @@ if __name__ == '__main__':
     result = pool.apply_async(f, [10], callback=callback_fun)
 ```
 
+Sorting dictionary by values:
+```Python
+sorted_x = sorted(x.items(), key=lambda kv: kv[1])
+```
+
+Dealing with 0d array:
+```Python
+np.atleast_1d(np.array(0))
+```
 **Converting cURL commands to Python requests**
 
 You can use the following site to immediately convert the copied cURL from your browser's dev tools into a python program:

@@ -79,6 +79,15 @@ var=$((var+1))
 id="$( cut -d ';' -f 1 <<< "$s" )";
 ```
 
+**Splitting string into an array:**
+```Bash
+IFS=',' read -r -a array <<< "$string"
+for element in "${array[@]}"
+do
+    echo "$element"
+done
+```
+
 **Disable password authentication:**
 
 Add the following to `/etc/ssh/sshd_config`
@@ -193,7 +202,7 @@ On server side use `iperf -s`
 On client side use `iperf -c <serverip>`
 
 **References:**
-
+- [Splitting String into Array in Bash](https://stackoverflow.com/questions/10586153/split-string-into-an-array-in-bash)
 - https://stackoverflow.com/questions/13200965/bash-start-remote-python-application-through-ssh-and-get-its-pid
 
 - https://stackoverflow.com/questions/8206370/add-numbers-to-the-beginning-of-every-line-in-a-file
