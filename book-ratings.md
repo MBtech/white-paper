@@ -65,6 +65,7 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 44. Camp Red Moon (by R.L. Stine): 6.5/10
 45. Chaos Monkeys (by Antonio Garcia Martinez): 7/10
 46. Everything is Fucked: A Book About Hope (by Mark Manson): 7.5/10
+47. Sword of Destiny (Witcher Book 1): 7/10
 
 <div class="pagination">
   {% if site.owner.linkedin %}

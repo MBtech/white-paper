@@ -98,6 +98,21 @@ Dealing with 0d array:
 ```Python
 np.atleast_1d(np.array(0))
 ```
+
+Reepeating elements to create an array: 
+```python
+x = np.array([1,2])
+np.repeat(x, 2)
+# array([1, 1, 2, 2])
+
+x = np.array([1,2])
+np.title(x, 2)
+# array([1, 2, 1, 2])
+
+```
+
+
+
 **Converting cURL commands to Python requests**
 
 You can use the following site to immediately convert the copied cURL from your browser's dev tools into a python program:
