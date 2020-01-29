@@ -121,5 +121,6 @@ for group, data in by_state:
   print(group)
   print(data)
 ```
+
 **References:**
 - [Pandas Groupby](https://realpython.com/pandas-groupby/)
