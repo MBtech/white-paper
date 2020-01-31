@@ -15,14 +15,14 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 ```
 
 ## Up Next
-
+```diff
 1. Do Dice Play God?: The Mathematics of Uncertainty (by Ian Stewart)
 2. Logically Fallacious (by Bo Bennett)
 3. Good Strategy/Bad Strategy (by Richard P. Rumelt)
-
+```
 
 ## Completed
-
+```diff
 1. 1984 (by George Orwell): 9/10
 2. The Man in the High Castle (by Philip K. Dick): 6/10
 3. Algorithms to Live By (by Brian Christian and Tom Griffiths ): 8/10
@@ -70,7 +70,7 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 45. Chaos Monkeys (by Antonio Garcia Martinez): 7/10
 46. Everything is Fucked: A Book About Hope (by Mark Manson): 7.5/10
 47. Sword of Destiny (Witcher Book 1): 7/10
-
+```
 
 <div class="pagination">
   {% if site.owner.linkedin %}
