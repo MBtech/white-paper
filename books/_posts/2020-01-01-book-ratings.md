@@ -1,7 +1,13 @@
 ---
-layout: default
-title: Book Ratings
+layout: post
+title: "Book Ratings"
+categories:
+  - review
+tags:
+  - review
+comments: true
 ---
+
 ![books-collage]({{ site.bookcovers }})
 
 ## My Book Ratings
@@ -9,20 +15,20 @@ title: Book Ratings
 Here's a bunch of books that I have read (listened to) and my ratings for them. Maybe it could help you select a new book to read. Most of them have been audiobooks unless I explicitly mention it and they are not CS books generally. A rating of 5 means an average book, it doesn't mean that the book was bad. Just that it was nothing special or intriguing.
 
 ## Currently Listening
-```diff
+
 1. Accessory to War (by Neil deGrasse Tyson and Avis Lang)
 2. The Phoenix Project (by Gene Kim, Kevin Behr and George Spafford)
-```
+
 
 ## Up Next
-```diff
+
 1. Do Dice Play God?: The Mathematics of Uncertainty (by Ian Stewart)
 2. Logically Fallacious (by Bo Bennett)
 3. Good Strategy/Bad Strategy (by Richard P. Rumelt)
-```
+
 
 ## Completed
-```diff
+
 1. 1984 (by George Orwell): 9/10
 2. The Man in the High Castle (by Philip K. Dick): 6/10
 3. Algorithms to Live By (by Brian Christian and Tom Griffiths ): 8/10
@@ -70,22 +76,3 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 45. Chaos Monkeys (by Antonio Garcia Martinez): 7/10
 46. Everything is Fucked: A Book About Hope (by Mark Manson): 7.5/10
 47. Sword of Destiny (Witcher Book 1): 7/10
-```
-
-<div class="pagination">
-  {% if site.owner.linkedin %}
-    <a href="{{ site.owner.linkedin }}" class="social-media-icons"><i class="fa fa-2x fa-linkedin" aria-hidden="true"></i></a>
-  {% endif %}
-  {% if site.owner.email %}
-    <a href="mailto:{{ site.owner.email }}" class="social-media-icons"><i class="fa fa-2x fa-envelope" aria-hidden="true"></i></a>
-  {% endif %}
-  {% if site.owner.twitter %}
-    <a href="https://twitter.com/{{ site.owner.twitter }}" class="social-media-icons"><i class="fa fa-2x fa-twitter" aria-hidden="true"></i></a>
-  {% endif %}
-  {% if site.owner.github %}
-    <a href="{{ site.owner.github }}" class="social-media-icons"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
-  {% endif %}
-  {% if site.owner.stackexchange %}
-    <a href="{{ site.owner.stackexchange }}" class="social-media-icons"><i class="fa fa-2x fa-stack-overflow" aria-hidden="true"></i></a>
-  {% endif %}
-</div>
