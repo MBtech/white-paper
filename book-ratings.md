@@ -10,8 +10,10 @@ Here's a bunch of books that I have read (listened to) and my ratings for them. 
 
 ## Currently Listening
 <span style="color:red">
+
 1. Accessory to War (by Neil deGrasse Tyson and Avis Lang) </br>
 2. The Phoenix Project (by Gene Kim, Kevin Behr and George Spafford)
+
 </span>
 
 ## Up Next
