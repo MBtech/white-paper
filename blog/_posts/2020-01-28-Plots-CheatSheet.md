@@ -34,7 +34,19 @@ g = sns.relplot(x="total_bill", y="tip",
 ```
 This will generate two plots based on the category of in the time column
 
+### Boxplot seaborn:
+```python
+ax = sns.boxplot(x="day", y="total_bill", hue="time", data=tips, linewidth=2.5)
+```
 
+### Lineplot with confidence interval:
+```python
+sns.relplot(x="timepoint", y="signal", kind="line", data=fmri)
+```
+If you want standard deviation instead of confidence interval
+```python
+sns.relplot(x="timepoint", y="signal", kind="line", ci="sd", data=fmri)
+```
 
 **References:**
 - [Scatter plot with seaborn](https://seaborn.pydata.org/generated/seaborn.scatterplot.html)
