@@ -9,9 +9,10 @@ title: Book Ratings
 Here's a bunch of books that I have read (listened to) and my ratings for them. Maybe it could help you select a new book to read. Most of them have been audiobooks unless I explicitly mention it and they are not CS books generally. A rating of 5 means an average book, it doesn't mean that the book was bad. Just that it was nothing special or intriguing.
 
 ## Currently Listening
-
-1. <span style="color:red">Accessory to War (by Neil deGrasse Tyson and Avis Lang)</span>
+```diff
+1. Accessory to War (by Neil deGrasse Tyson and Avis Lang)
 2. The Phoenix Project (by Gene Kim, Kevin Behr and George Spafford)
+```
 
 ## Up Next
 
