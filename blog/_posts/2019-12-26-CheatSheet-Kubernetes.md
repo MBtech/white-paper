@@ -3,6 +3,7 @@ layout: post
 title: "CheatSheet for Kubernetes"
 categories:
   - cheatsheet
+  - csblog
 tags:
   - cheatsheet
 ---

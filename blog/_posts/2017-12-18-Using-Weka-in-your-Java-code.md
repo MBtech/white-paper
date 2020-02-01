@@ -3,6 +3,7 @@ layout: post
 title: "Using Weka Programmatically"
 categories:
   - tutorial
+  - csblog
 tags:
   - tutorial
 ---

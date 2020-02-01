@@ -3,6 +3,7 @@ layout: post
 title: "Scala Cheatsheet"
 categories:
   - guide
+  - csblog
 tags:
   - guide
 ---

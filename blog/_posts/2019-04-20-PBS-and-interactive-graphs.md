@@ -3,6 +3,7 @@ layout: post
 title: "PBS and Interactive Graphs"
 categories:
   - guide
+  - csblog
 tags:
   - guide
 ---

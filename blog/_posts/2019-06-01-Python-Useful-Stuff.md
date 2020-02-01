@@ -3,6 +3,7 @@ layout: post
 title: "Python Gems"
 categories:
   - guide
+  - csblog
 tags:
   - guide
 ---

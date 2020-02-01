@@ -4,6 +4,7 @@ layout: post
 title: "Tutorial: Profiling Java Applications"
 categories:
   - tutorial
+  - csblog
 tags:
   - content
 ---

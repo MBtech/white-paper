@@ -3,6 +3,7 @@ layout: post
 title: "Graph Dataset Resources"
 categories:
   - guide
+  - csblog
 tags:
   - guide
 ---

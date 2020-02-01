@@ -3,6 +3,7 @@ layout: post
 title: "Race Animate Bar Chart"
 categories:
   - guide
+  - csblog
 tags:
   - guide
 ---

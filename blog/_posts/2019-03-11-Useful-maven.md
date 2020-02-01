@@ -3,6 +3,7 @@ layout: post
 title: "Maven tidbits"
 categories:
   - cheatsheet
+  - csblog
 tags:
   - cheatsheet
 ---

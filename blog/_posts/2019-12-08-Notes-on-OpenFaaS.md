@@ -3,6 +3,7 @@ layout: post
 title: "Notes on OpenFaaS"
 categories:
   - notes
+  - csblog
 tags:
   - notes
 ---

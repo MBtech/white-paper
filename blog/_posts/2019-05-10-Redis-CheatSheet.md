@@ -3,6 +3,7 @@ layout: post
 title: "Redis Cheatsheet"
 categories:
   - guide
+  - csblog
 tags:
   - guide
 ---

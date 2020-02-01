@@ -3,6 +3,7 @@ layout: post
 title: "On GraphX"
 categories:
   - guide
+  - csblog
 tags:
   - guide
 ---

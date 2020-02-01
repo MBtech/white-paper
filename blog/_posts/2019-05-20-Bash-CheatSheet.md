@@ -3,6 +3,7 @@ layout: post
 title: "Bash Cheatsheet"
 categories:
   - guide
+  - csblog
 tags:
   - guide
 ---

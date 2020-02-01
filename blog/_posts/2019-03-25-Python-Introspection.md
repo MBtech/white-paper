@@ -3,6 +3,7 @@ layout: post
 title: "Python Introspection"
 categories:
   - guide
+  - csblog
 tags:
   - guide
 ---

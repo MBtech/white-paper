@@ -3,6 +3,7 @@ layout: post
 title: "Setting up a Hotcrp server"
 categories:
   - tutorial
+  - csblog
 tags:
   - tutorial, hotcrp, ubuntu, installation guide
 ---

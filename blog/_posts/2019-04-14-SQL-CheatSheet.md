@@ -3,6 +3,7 @@ layout: post
 title: "SQL Cheatsheet"
 categories:
   - guide
+  - csblog
 tags:
   - guide
 ---

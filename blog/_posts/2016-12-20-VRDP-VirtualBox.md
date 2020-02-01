@@ -3,6 +3,7 @@ layout: post
 title: "VRDP VirtualBox"
 categories:
   - tutorial
+  - csblog
 tags:
   - content
 ---

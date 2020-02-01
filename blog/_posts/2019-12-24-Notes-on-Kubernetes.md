@@ -3,10 +3,11 @@ layout: post
 title: "Notes on Kubernetes"
 categories:
   - notes
+  - csblog
 tags:
   - notes
 ---
-# Notes
+## Notes (Updated 24/12/2019)
 - Pod is the basic unit of execution in Kubernetes. It encapsulate application container (one or more), storage resources, unique network IP and container options.
 - Containers within a Pod share namespace as well as IP address and port space.
 - Containers within the Pod see the system's hostname as being same as the configured name for the Pod.

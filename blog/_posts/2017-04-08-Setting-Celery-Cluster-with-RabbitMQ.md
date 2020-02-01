@@ -3,6 +3,7 @@ layout: post
 title: "Setting Up Celery Cluster with RabbitMQ"
 categories:
   - tutorial
+  - csblog
 tags:
   - tutorial
 ---

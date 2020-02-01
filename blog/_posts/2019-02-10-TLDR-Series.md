@@ -3,6 +3,7 @@ layout: post
 title: "TL;DR Series: Research Papers"
 categories:
   - tutorial
+  - csblog
 tags:
   - tutorial
 ---

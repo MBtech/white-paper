@@ -3,6 +3,7 @@ layout: post
 title: "CheatSheet for Docker Swarm"
 categories:
   - cheatsheet
+  - csblog
 tags:
   - cheatsheet
 ---

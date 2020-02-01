@@ -3,6 +3,7 @@ layout: post
 title: "FFMPEG Gems"
 categories:
   - guide
+  - csblog
 tags:
   - guide, ffmpeg, gems
 ---

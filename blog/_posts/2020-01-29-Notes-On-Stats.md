@@ -3,7 +3,6 @@ layout: post
 title: "Notes on Stats"
 categories:
   - notes
-  - csblog
 tags:
   - notes
 ---

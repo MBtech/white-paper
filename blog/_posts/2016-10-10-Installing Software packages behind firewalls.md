@@ -3,6 +3,7 @@ layout: post
 title: "Installing Software Packages behind Firewall"
 categories:
   - tutorial
+  - csblog
 tags:
   - content
 ---

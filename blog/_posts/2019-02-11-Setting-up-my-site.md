@@ -3,6 +3,7 @@ layout: post
 title: "Setting up my site"
 categories:
   - tutorial
+  - csblog
 tags:
   - tutorial
 ---

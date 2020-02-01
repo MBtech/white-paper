@@ -3,6 +3,7 @@ layout: post
 title: "Tutorial: Getting Started with Docker"
 categories:
   - tutorial
+  - csblog
 tags:
   - tutorial
 comments: true

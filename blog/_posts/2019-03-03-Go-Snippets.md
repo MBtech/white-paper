@@ -3,6 +3,7 @@ layout: post
 title: "Golang snippets"
 categories:
   - cheatsheet
+  - csblog
 tags:
   - cheatsheet
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Cassandra Cheatsheet"
 categories:
   - guide
+  - csblog
 tags:
   - guide
 ---

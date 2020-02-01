@@ -3,6 +3,7 @@ layout: post
 title: "Tutorial: Docker Swarm"
 categories:
   - tutorial
+  - csblog
 tags:
   - tutorial
 comments: true

@@ -3,6 +3,7 @@ layout: post
 title: "Notes on Docker Swarm"
 categories:
   - notes
+  - csblog
 tags:
   - notes
 ---

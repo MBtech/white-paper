@@ -3,6 +3,7 @@ layout: post
 title: "Bash tab completion"
 categories:
   - guide
+  - csblog
 tags:
   - guide
 ---

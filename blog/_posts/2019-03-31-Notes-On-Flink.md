@@ -3,6 +3,7 @@ layout: post
 title: "Notes on Flink"
 categories:
   - guide
+  - csblog
 tags:
   - guide
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Dirichlet distribution: Generating Random numbers that Sum to 1"
 categories:
   - guide
+  - csblog
 tags:
   - content
 ---

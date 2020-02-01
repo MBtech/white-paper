@@ -3,6 +3,7 @@ layout: post
 title: "MongoDB Cheatsheet"
 categories:
   - guide
+  - csblog
 tags:
   - guide
 ---

@@ -3,7 +3,6 @@ layout: post
 title: "Seaborn Cheatsheet"
 categories:
   - cheatsheet
-  - csblog
 tags:
   - cheatsheet
 ---
