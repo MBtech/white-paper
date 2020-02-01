@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Book Ratings"
+title: "Book Reviews"
 categories:
   - review
   - reviewblog
