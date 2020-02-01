@@ -3,6 +3,7 @@ layout: post
 title: "Notes on Helm"
 categories:
   - notes
+  - csblog
 tags:
   - notes
 ---

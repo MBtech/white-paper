@@ -3,6 +3,7 @@ layout: post
 title: "Creating plots in Python"
 categories:
   - cheatsheet
+  - csblog
 tags:
   - cheatsheet
 ---

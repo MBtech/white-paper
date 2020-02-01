@@ -3,6 +3,7 @@ layout: post
 title: "Book Ratings"
 categories:
   - review
+  - reviewblog
 tags:
   - review
 comments: true

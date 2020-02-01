@@ -3,6 +3,7 @@ layout: post
 title: "Setting up VPA with OpenFaaS"
 categories:
   - guide
+  - csblog
 tags:
   - guide
 ---
