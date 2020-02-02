@@ -3,7 +3,7 @@ layout: post
 title: "Book Reviews"
 categories:
   - review
-  - reviewblog
+  - books
 tags:
   - review
 comments: true
