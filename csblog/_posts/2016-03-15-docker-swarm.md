@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Tutorial: Docker Swarm"
+pagination: 
+  enabled: true
+  category: csblog
 categories:
   - tutorial
   - csblog

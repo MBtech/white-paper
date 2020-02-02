@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Tutorial: Getting Started with Docker"
+pagination: 
+  enabled: true
+  category: csblog
 categories:
   - tutorial
   - csblog

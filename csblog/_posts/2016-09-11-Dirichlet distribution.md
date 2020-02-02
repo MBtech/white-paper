@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Dirichlet distribution: Generating Random numbers that Sum to 1"
+pagination: 
+  enabled: true
+  category: csblog
 categories:
   - guide
   - csblog

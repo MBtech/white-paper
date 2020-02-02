@@ -8,9 +8,13 @@ url: "https://adventuresincs.com"
 markdown: kramdown
 highlighter: rouge
 
-plugins: ['jekyll-paginate', 'jekyll-gist', 'jekyll-feed']
+plugins: ['jekyll-paginate-v2', 'jekyll-gist', 'jekyll-feed']
 
-paginate: 6
+pagination: 
+  enabled: true
+  per_page: 5
+  sort_field: 'date'
+  sort_reverse: true
 
 logo:             logo.png
 disqus_shortname: mbilalce

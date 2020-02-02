@@ -2,6 +2,9 @@
 layout: post
 layout: post
 title: "Tutorial: Profiling Java Applications"
+pagination: 
+  enabled: true
+  category: csblog
 categories:
   - tutorial
   - csblog
