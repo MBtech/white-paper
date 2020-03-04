@@ -45,6 +45,11 @@ or
 while true; do ls path/* | entr -pd echo Changed; sleep 10; done
 ```
 
+**Generting public key from private key**
+```bash
+ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub
+```
+
 **Starting a remote ssh command and shifting it to background and getting the PID of the process:**
 ```bash
 ssh -n me@example.com "nohup myscript.sh >/dev/null 2>&1 &"
